@@ -7,7 +7,7 @@ start();
 
 async function start() {
 
-  const snapshotDir = __dirname + "/../../snapshots/";
+  const snapshotDir = __dirname + "/../snapshots/";
   const result = [];
 
   const files = getAllFiles(snapshotDir + "base/vr/");
